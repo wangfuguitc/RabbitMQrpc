@@ -1,0 +1,6 @@
+测试报告:
+测试环境:一台windows电脑,两台linux虚拟机,虚拟机上安装RabbitMQ
+服务端和客户端都执行后
+客户端:输入错误的命令会提示输入错误(run "df -h" --hosts HOST_ID or check_task TASK_ID)
+执行run命令:会打印任务id
+执行check_task命令:会打执行结果,若任务id不存在会报错(任务不存在)
